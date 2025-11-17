@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hello, this is a paragraph.</p>
+    <p id="paragraph2"></p>
+    <p id="paragraph3"></p>
+    <button onclick="document.write('I have been clicked')">Click me</button>
+    <button onclick="alert('I am an alert')">Click me 2</button>
+    <p id="paragraph4"></p>
+    <script>
+        document.write("Hello, I am the new guy");
+        document.write('I am another guy');
+        document.write(123);
+        document.write("I am 21 years old");
+        // window.alert("Hey! See me.");
+        // alert(2222);
+        console.log("I am in the console");
+
+        document.getElementById('paragraph2').innerHTML = "<b>I am writing to the paragraph</b>";
+        document.getElementById('paragraph3').innerText = "I am writing to another paragraph again";
+
+    </script>
+
+    <script src="WK1-1-intro.js"></script>
+</body>
+</html>
