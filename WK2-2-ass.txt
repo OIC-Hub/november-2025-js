@@ -1,0 +1,1 @@
+Write a function to find sum of cubes of two numbers
